@@ -19,7 +19,7 @@
         }],
         "grammars": [{
             "language": "ada",
-            "scopeName": "",
+            "scopeName": "source.ada",
             "path": "./syntaxes/ada.tmLanguage.json"
         }]
     }
