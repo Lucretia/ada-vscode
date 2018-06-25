@@ -1,0 +1,26 @@
+{
+    "name": "ada-vscode",
+    "displayName": "Ada VSCode",
+    "description": "Ada programming language support for VSCode.",
+    "version": "0.0.1",
+    "publisher": "codecoolstuff",
+    "engines": {
+        "vscode": "^1.24.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "ada",
+            "aliases": ["Ada", "ada"],
+            "extensions": [".ads",".adb",".ada"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "ada",
+            "scopeName": "",
+            "path": "./syntaxes/ada.tmLanguage.json"
+        }]
+    }
+}
