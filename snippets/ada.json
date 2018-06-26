@@ -85,5 +85,13 @@
             "   $0",
             "end loop;"
         ]
+    },
+    "While loop": {
+        "prefix": "while",
+        "body": [
+            "while $1 loop",
+            "   $0",
+            "end loop;"
+        ]
     }
 }

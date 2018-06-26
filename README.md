@@ -27,7 +27,7 @@ For example if there is an image subfolder under your extension project workspac
   - [X] if ... then ... else ... end
   - [X] case ... when ... end
   - [X] for loops
-  - [ ] while loops
+  - [X] while loops
   - [ ] loop ... end
   - [ ] return
   - [ ] return ... do ... end
