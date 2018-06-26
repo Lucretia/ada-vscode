@@ -1,0 +1,38 @@
+{
+    "Function declaration": {
+        "prefix": "function X ... return ... ;",
+        "body": [
+            "function ${1:${TM_FILENAME/(.*)\\..+$/$1/}} $2 return ${3:Return_Type};$0"
+        ]
+    },
+    "Procedure declaration": {
+        "prefix": "procedure X ...;",
+        "body": [
+            "procedure ${1:${TM_FILENAME/(.*)\\..+$/$1/}} $2;$0"
+        ]
+    },
+    "Function definition": {
+        "prefix": "function X ... return Y is ... end X;",
+        "body": [
+            "function ${1:${TM_FILENAME/(.*)\\..+$/$1/}} $2 return ${3:Return_Type} is",
+            "begin",
+            "   $0",
+            "end $1;"
+        ]
+    },
+    "Procedure definition": {
+        "prefix": "procedure X ... is ... end X;",
+        "body": [
+            "procedure ${1:${TM_FILENAME/(.*)\\..+$/$1/}} $2 is",
+            "begin",
+            "   $0",
+            "end $1;"
+        ]
+    },
+    "Overriding indicator": {
+        "prefix": "overriding",
+        "body": [
+            "${1|not overriding,overriding|}$0"
+        ]
+    }
+}

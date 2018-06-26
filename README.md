@@ -22,7 +22,8 @@ For example if there is an image subfolder under your extension project workspac
   - [ ] Highlight based numbers sparate from the delimiters 
   - [X] Highlight attributes
 * [ ] Code snippets:
-  - [ ] procedure / function
+  - [X] procedure / function
+  - [X] overriding (or not) indicators
   - [ ] if ... then ... else ... end
   - [ ] case ...when ...end
   - [ ] for loops
