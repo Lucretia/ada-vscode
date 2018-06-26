@@ -17,7 +17,7 @@ For example if there is an image subfolder under your extension project workspac
 * [ ] Ada syntax highlighting.
   - [X] Highlight keywords
   - [X] Highlight delimeters
-  - [ ] Highlight string contents separate from the delimiters
+  - [X] Highlight string contents separate from the delimiters
   - [ ] Highlight character contents separate from the delimiters
   - [ ] Highlight based numbers sparate from the delimiters 
   - [X] Highlight attributes

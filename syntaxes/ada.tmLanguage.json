@@ -54,7 +54,12 @@
 				{
 					"name": "string.quoted.double.ada",
 					"begin": "\"",
-					"end": "\""
+					"end": "\"",
+					"captures": {
+						"0": {
+							"name": "string.quoted.double.content.ada"
+						}
+					}
 				},
 				{
 					"name": "string.quoted.single.ada",
