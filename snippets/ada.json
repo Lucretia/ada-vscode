@@ -121,5 +121,21 @@
             "   $0",
             "end return;"
         ]
+    },
+    "Package specification": {
+        "prefix": "package",
+        "body": [
+            "package $1 is",
+            "   $0",
+            "end $1;"
+        ]
+    },
+    "Package body": {
+        "prefix": "package",
+        "body": [
+            "package body $1 is",
+            "   $0",
+            "end $1;"
+        ]
     }
 }

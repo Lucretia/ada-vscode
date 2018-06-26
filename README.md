@@ -31,7 +31,7 @@ For example if there is an image subfolder under your extension project workspac
   - [X] loop ... end
   - [X] return
   - [X] return ... do ... end
-  - [ ] package specs / bodies
+  - [X] package specs / bodies
   - [ ] tasks
   - [ ] protected objects
 * [ ] Code folding.
