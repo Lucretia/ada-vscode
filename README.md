@@ -12,6 +12,33 @@ For example if there is an image subfolder under your extension project workspac
 
 > Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
 
+### Basic features
+
+* [ ] Ada syntax highlighting.
+  - [X] Highlight keywords
+  - [X] Highlight delimeters
+  - [ ] Highlight string contents separate from the delimiters
+  - [ ] Highlight character contents separate from the delimiters
+  - [ ] Highlight based numbers sparate from the delimiters 
+  - [ ] Highlight labels sparate from the delimiters 
+  - [X] Highlight attributes
+* [ ] Code snippets:
+  - [ ] procedure / function
+  - [ ] if ... then ... else ... end
+  - [ ] case ...when ...end
+  - [ ] for loops
+  - [ ] while loops
+  - [ ] loop ... end
+  - [ ] return
+  - [ ] return ... do ... end
+  - [ ] package specs / bodies
+  - [ ] tasks
+  - [ ] protected objects
+
+### Language server features
+
+* [ ] ?
+
 ## Requirements
 
 If you have any requirements or dependencies, add a section describing those and how to install and configure them.
