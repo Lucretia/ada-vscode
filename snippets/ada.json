@@ -71,7 +71,7 @@
             "end case;"
         ]
     },
-    "Case_When": {
+    "Case when": {
         "prefix": "when",
         "body": [
             "when $1 =>",
