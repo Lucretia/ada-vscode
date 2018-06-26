@@ -107,5 +107,19 @@
         "body": [
             "exit when $0;"
         ]
+    },
+    "Normal return": {
+        "prefix": "return",
+        "body": [
+            "return $0;"
+        ]
+    },
+    "Extended return": {
+        "prefix": "return",
+        "body": [
+            "return $2 do",
+            "   $0",
+            "end return;"
+        ]
     }
 }

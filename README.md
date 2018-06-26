@@ -29,8 +29,8 @@ For example if there is an image subfolder under your extension project workspac
   - [X] for loops
   - [X] while loops
   - [X] loop ... end
-  - [ ] return
-  - [ ] return ... do ... end
+  - [X] return
+  - [X] return ... do ... end
   - [ ] package specs / bodies
   - [ ] tasks
   - [ ] protected objects
