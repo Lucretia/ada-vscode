@@ -13,7 +13,7 @@
     "contributes": {
         "languages": [{
             "id": "ada",
-            "aliases": ["Ada", "ada"],
+            "aliases": ["Ada", "ada", "Ada 83", "Ada95", "Ada 2005", "Ada 2012"],
             "extensions": [".ads",".adb",".ada"],
             "configuration": "./language-configuration.json"
         }],
