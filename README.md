@@ -33,6 +33,7 @@ For example if there is an image subfolder under your extension project workspac
   - [ ] package specs / bodies
   - [ ] tasks
   - [ ] protected objects
+* [ ] Code folding.
 
 ### Language server features
 
