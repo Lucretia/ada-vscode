@@ -93,5 +93,19 @@
             "   $0",
             "end loop;"
         ]
+    },
+    "Infinite loop": {
+        "prefix": "loop",
+        "body": [
+            "loop",
+            "   $0",
+            "end loop;"
+        ]
+    },
+    "Exit loop": {
+        "prefix": "exit",
+        "body": [
+            "exit when $0;"
+        ]
     }
 }
