@@ -27,6 +27,12 @@
                 "language": "ada",
                 "path": "./snippets/ada.json"
             }
-        ]
+        ],
+        "configurationDefaults": {
+            "[ada]": {
+                "editor.insertSpaces": true,
+                "editor.tabSize": 3
+            }
+        }
     }
 }
