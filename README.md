@@ -25,7 +25,7 @@ For example if there is an image subfolder under your extension project workspac
   - [X] procedure / function
   - [X] overriding (or not) indicators
   - [X] if ... then ... else ... end
-  - [ ] case ... when ... end
+  - [X] case ... when ... end
   - [ ] for loops
   - [ ] while loops
   - [ ] loop ... end

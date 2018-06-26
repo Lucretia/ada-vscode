@@ -62,5 +62,20 @@
             "elif $1 then",
             "   $0"
         ]
+    },
+    "Case": {
+        "prefix": "case",
+        "body": [
+            "case $1 is",
+            "   $0",
+            "end case;"
+        ]
+    },
+    "Case_When": {
+        "prefix": "when",
+        "body": [
+            "when $1 =>",
+            "   $0"
+        ]
     }
 }
