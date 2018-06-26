@@ -20,7 +20,6 @@ For example if there is an image subfolder under your extension project workspac
   - [ ] Highlight string contents separate from the delimiters
   - [ ] Highlight character contents separate from the delimiters
   - [ ] Highlight based numbers sparate from the delimiters 
-  - [ ] Highlight labels sparate from the delimiters 
   - [X] Highlight attributes
 * [ ] Code snippets:
   - [ ] procedure / function
