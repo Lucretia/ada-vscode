@@ -15,7 +15,7 @@
             "id": "ada",
             "aliases": ["Ada", "ada", "Ada 83", "Ada95", "Ada 2005", "Ada 2012"],
             "extensions": [".ads",".adb",".ada"],
-            "configuration": "./language-configuration.json"
+            "configuration": "./ada.language-configuration.json"
         }],
         "grammars": [{
             "language": "ada",
