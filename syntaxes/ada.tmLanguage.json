@@ -9,6 +9,9 @@
 			"include": "#keywords"
 		},
 		{
+			"include": "#entities"
+		},
+		{
 			"include": "#operators"
 		},
 		{
@@ -38,6 +41,14 @@
 				{
 					"name": "keyword.ada",
 					"match": "\\b(abort|abs|abstract|accept|access|aliased|all|and|array|at|begin|body|case|constant|declare|delay|delta|digits|do|else|elsif|end|entry|exception|exit|for|function|generic|goto|if|in|interface|is|limited|loop|mod|new|not|null|of|or|others|out|overriding|package|pragma|provide|procedure|protected|raise|range|record|rem|renames|requeue|return|reverse|select|separate|some|subtype|synchronized|tagged|task|terminate|then|type|until|use|when|while|with|xor)"
+				}
+			]
+		},
+		"entities": {
+			"patterns": [
+				{
+					"name": "entity.name.ada",
+					"match": "\\b(\\w+(\\.?\\w+)*)"
 				}
 			]
 		},
