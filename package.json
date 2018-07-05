@@ -11,17 +11,32 @@
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "ada",
-            "aliases": ["Ada", "ada", "Ada 83", "Ada95", "Ada 2005", "Ada 2012"],
-            "extensions": [".ads",".adb",".ada"],
-            "configuration": "./ada.language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "ada",
-            "scopeName": "source.ada",
-            "path": "./syntaxes/ada.tmLanguage.json"
-        }],
+        "languages": [
+            {
+                "id": "ada",
+                "aliases": [
+                    "Ada",
+                    "ada",
+                    "Ada 83",
+                    "Ada95",
+                    "Ada 2005",
+                    "Ada 2012"
+                ],
+                "extensions": [
+                    ".ads",
+                    ".adb",
+                    ".ada"
+                ],
+                "configuration": "./ada.language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "ada",
+                "scopeName": "source.ada",
+                "path": "./syntaxes/ada.tmLanguage.json"
+            }
+        ],
         "snippets": [
             {
                 "language": "ada",
