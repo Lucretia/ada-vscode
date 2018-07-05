@@ -28,6 +28,16 @@
                     ".ada"
                 ],
                 "configuration": "./ada.language-configuration.json"
+            },
+            {
+                "id": "gpr",
+                "aliases": [
+                    "GNAT Project"
+                ],
+                "extensions": [
+                    ".gpr"
+                ],
+                "configuration": "./gpr.language-configuration.json"
             }
         ],
         "grammars": [
@@ -35,6 +45,11 @@
                 "language": "ada",
                 "scopeName": "source.ada",
                 "path": "./syntaxes/ada.tmLanguage.json"
+            },
+            {
+                "language": "gpr",
+                "scopeName": "source.gpr",
+                "path": "./syntaxes/gpr.tmLanguage.json"
             }
         ],
         "snippets": [
