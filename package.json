@@ -2,6 +2,7 @@
     "name": "ada-vscode",
     "displayName": "Ada VSCode",
     "description": "Ada programming language support for VSCode.",
+    "license": "GPL-3.0+",
     "version": "0.0.1",
     "publisher": "codecoolstuff",
     "engines": {
