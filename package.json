@@ -2,11 +2,15 @@
     "name": "ada-vscode",
     "displayName": "Ada VSCode",
     "description": "Ada programming language support for VSCode.",
+    "author": {
+        "name": "Luke A. Guest",
+        "url": "http://codecoolstuff.com"
+    },
     "license": "GPL-3.0+",
     "version": "0.0.1",
     "publisher": "codecoolstuff",
     "engines": {
-        "vscode": "^1.24.0"
+        "vscode": "^1.27.0"
     },
     "categories": [
         "Programming Languages"
@@ -64,6 +68,17 @@
                 "editor.insertSpaces": true,
                 "editor.tabSize": 3
             }
-        }
+        },
+    },
+    "devDependencies": {
+        "typescript": "^2.6.1",
+        "vscode": "^1.1.6",
+        "tslint": "^5.8.0"
+    },
+    "dependencies": {
+        "@types/xregexp": "^3.0.29"
+    },
+    "scripts": {
+        "postinstall": "node ./node_modules/vscode/bin/install"
     }
 }
